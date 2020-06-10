@@ -1,0 +1,144 @@
+.pg-header .nav {
+    min-width: 980px;
+    height: 48px;
+    line-height: 48px;
+    color: #ffffff;
+    background-color: #2f72ab;
+    overflow: visible;
+    font-size: 12px;
+}
+
+.pg-header .nav .logo-area {
+    width: 220px;
+    height: 48px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #1c5a9c;
+    float: left;
+}
+
+.pg-header .nav .logo-area > a {
+    width: 132px;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.pg-header .nav .logo-area .logo {
+    width: 38px;
+    height: 38px;
+    margin: 5px;
+}
+
+.pg-header .nav .logo-area > a span {
+    font-size: 18px;
+    float: right;
+}
+
+.pg-header .nav .left-menu {
+    float: left;
+    font-size: 13px;
+}
+
+.pg-header .nav .left-menu .menu-item {
+    display: inline-block;
+    float: left;
+    color: #ffffff;
+    padding: 0 15px;
+    font-size: 16px;
+    text-decoration: none;
+    position: relative;
+}
+
+.pg-header .nav .left-menu .menu-item:hover {
+    color: #2aabd2;
+}
+
+.pg-header .nav .left-menu .menu-item .more-info {
+    display: none;
+    border: 1px solid rgba(0, 0, 0, .15);
+    background-color: #fff;
+    position: absolute;
+    top: 48px;
+    left: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.pg-header .nav .left-menu .menu-item:hover .more-info {
+    display: block;
+}
+
+.pg-header .nav .left-menu .menu-item .more-info .more-item{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    min-width: 100px;
+    line-height: 30px;
+    color: #000;
+}
+
+.pg-header .nav .left-menu .menu-item .more-info .more-item:hover{
+    color: #2aabd2;
+}
+
+.pg-header .nav .right-menu {
+    float: right;
+    font-size: 13px;
+    height: 48px;
+    width: 500px;
+}
+
+.pg-header .nav .right-menu .menu-item {
+    float: right;
+    font-size: 16px;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 48px;
+    height: 48px;
+    width: 90px;
+    position: relative;
+}
+
+.pg-header .nav .right-menu .menu-item > a {
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+}
+
+.pg-header .nav .right-menu .menu-item > a img {
+    height: 38px;
+    width: 38px;
+    position: absolute;
+    top: 7%;
+    left: 7%;
+}
+
+.pg-header .nav .right-menu .menu-item .more-info {
+    display: none;
+    background-color: #fff;
+    height: 38px;
+    width: 38px;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.pg-header .nav .right-menu .menu-item:hover .more-info {
+    display: block;
+}
+
+.pg-header .nav .right-menu .menu-item .more-info a {
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    width: 80px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
